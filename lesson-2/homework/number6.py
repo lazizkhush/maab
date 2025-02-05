@@ -1,2 +1,2 @@
 a = int(input())
-print('last digit -', a%10)
+print('last digit -', abs(a)%10)
