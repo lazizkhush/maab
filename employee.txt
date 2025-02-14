@@ -1,0 +1,4 @@
+1001, lazy, good, 1200
+1001, great, dji, 1213
+1000, ghi, developer, 10000
+999, yee, smm, 9000
