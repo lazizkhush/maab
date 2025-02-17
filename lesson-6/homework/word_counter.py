@@ -31,5 +31,3 @@ while i < n_words:
         print(f'{word} - {count}')
         i+=1
     
-
-
