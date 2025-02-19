@@ -26,8 +26,9 @@ n_words = int(input('How many top number you want to display? : '))
 print(f'Top {n_words} words')
 
 i = 0
-while i < n_words:
-    for word, count in top_words.items():
+for word, count in top_words.items():
+    if i != n_words:
         print(f'{word} - {count}')
         i+=1
+    
     
