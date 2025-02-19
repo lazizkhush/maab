@@ -41,7 +41,7 @@ class Bank:
             print('Not enough money in your balance')
         
     def save_to_file(self):
-        with open('bankAcounts.txt', 'w') as f:
+        with open('bankAccounts.txt', 'w') as f:
             for k, v in self.accounts.items():
                 f.write(k+', ')
                 for key, value in v.items():
@@ -51,7 +51,7 @@ class Bank:
 
     def load_from_file(self):
         try:
-            with open('bankAcounts.txt', 'r') as f:
+            with open('bankAccounts.txt', 'r') as f:
                 lines = f.readlines()
                 for line in lines:
                     parts = [p.strip() for p in line.strip().split(',') if p.strip()]
